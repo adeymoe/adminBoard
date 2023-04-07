@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="grid-container">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+        <aside>
+            <section class="sideBar">
+                <div id="logo"><span class="material-icons-outlined">
+                    pets
+                    </span>MainStack</div>
+            </section>
+
+            <ul class="sidebar-list">
+                <li class="list-item"><span class="material-icons-outlined">
+                    dashboard
+                    </span>Dashboard</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    edit
+                    </span>Item 1</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    people_alt
+                    </span>Item 2</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    hourglass_empty
+                    </span>Item 3</li>
+                <li class="list-item">OTHERS 1</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    download_for_offline
+                    </span>Item 4</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    approval
+                    </span>Item 5</li>
+                <li class="list-item">OTHERS 2</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    new_releases
+                    </span>Item 6</li>
+                <li class="list-item"><span class="material-icons-outlined">
+                    volume_off
+                    </span>Item 7</li>
+            </ul>
+        </aside>
+        <main>
+            <section class="main-info">
+                <div>
+                <h2>Good morning, Blessing <span class="material-icons-outlined">
+                    cloud
+                    </span> </h2>
+                <p>Check out your dashboard summary.</p>
+                </div>
+                <div class="analysis">
+                    <h4>view analytics</h4>
+                </div>
+            </section>
+
+            <section class="timeSpan">
+                <span>1 Day</span>
+                <span>3 Days</span>
+                <span>7 Days</span>
+                <span>30 Days</span>
+                <span>All Time</span>
+                <span>Custom Date</span>
+            </section>
+
+
+            <section class="chart">
+                <div class="chart-box">
+                    <h2>Page Views</h2>
+                    <p>All time</p>
+                    <h3 id="page-views">500</h3>
+                    <div id="area-chart"></div>
+
+                </div>
+            </section>
+
+            <section class="donut-charts">
+                <section class="chart-sec">
+                    <div class="donut-head">
+                    <h2>Top Locations</h2>
+                    <h4 class="analysis">View full reports</h4>
+                    </div>
+                    <div id="location-chart"></div>
+                </section>
+                <section class="chart-sec">
+                    <div class="donut-head">
+                        <h2>Top Referral Source</h2>
+                        <h4 class="analysis">View full reports</h4>
+                        </div>
+                        <div id="source-chart"></div>
+                </section>
+            </section>
+        </main>
+
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.37.3/apexcharts.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
